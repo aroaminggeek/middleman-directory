@@ -1,4 +1,16 @@
 -
+  name: middleman-versions
+  description: Compile different middleman site versions with custom data injected
+  links:
+    github: https://github.com/cuentica/middleman-versions
+    site: https://rubygems.org/gems/middleman-versions
+  supported_api_versions:
+    - original
+  tags:
+    - Tooling
+    - Deployment
+    - Settings
+-
   name: middleman-imgix
   description: Run all of your images (or only some) through imgix for all sorts of fun features.
   links:
@@ -89,15 +101,6 @@
   description: A low-drama portfolio generator for your middleman site.
   links:
     github: https://github.com/dhulihan/middleman-portfolio
-  supported_api_versions:
-    - original
-  tags:
-    - Generator
--
-  name: middleman-presentation
-  description: Helps you to build wonderful presentations based on HTML and JavaScript. It is powered by middleman and reveal.js
-  links:
-    github: https://github.com/fedux-org/middleman-presentation
   supported_api_versions:
     - original
   tags:
@@ -513,6 +516,7 @@
     github: https://github.com/leighmcculloch/middleman-cdn
   tags:
     - Deployment
+    - CDN
 -
   name: middleman-disqus
   description: "A Middleman extension to integrate Disqus into your site, supporting Disqus configuration variables and comment counts."
@@ -881,3 +885,88 @@
     - original
   tags:
     - Tooling
+-
+  name: middleman-typogruby
+  description: Improve your web typography
+  links:
+    github: https://github.com/ssbx/middleman-typogruby
+  supported_api_versions:
+    - original
+  tags:
+-
+  name: middleman-apps
+  description: Truly dynamic pages for Middleman
+  links:
+    github: https://github.com/nikhgupta/middleman-apps
+  supported_api_versions:
+    - original
+  tags:
+    - Operations
+    - Deployment
+    - Dynamic Pages
+-
+  name: middleman-async-image
+  description: Convert targeted images to lower quality images and load asynchronously like Medium
+  links:
+    github: https://github.com/bastienrobert/middleman-async-image
+  supported_api_versions:
+    - original
+  tags:
+    - Optimization
+-
+  name: middleman-brotli
+  description: Compress assets with Brotli for maximum shrinkage
+  links:
+    github: https://github.com/exteris/middleman-brotli
+  supported_api_versions:
+    - original
+  tags:
+-
+  name: middleman-segment
+  description: Generating your Segment tracking code
+  links:
+    github: https://github.com/bnadlerjr/middleman-segment
+  supported_api_versions:
+    - v4
+  tags:
+    - Generator
+    - Tooling
+-
+  name: middleman-hotjar
+  description: Generate your Hotjar analytics tracking code.
+  official: false
+  links:
+    github: https://github.com/KieranHunt/middleman-hotjar
+-
+  name: middleman-firebase
+  description: Rake tasks for deploying Middleman sites to Firebase Hosting
+  links:
+    github: https://bitbucket.org/marnen/middleman-firebase
+  tags:
+    - Tooling
+    - Operations
+-
+  name: middleman-medium
+  description: Fetches a preview of published posts from Medium Feed
+  official: false
+  links:
+    github: https://github.com/cffiebigc/middleman-medium
+  tags:
+    - Generator
+    - Tooling
+-
+  name: data_files
+  description: Interactive shell to manipulate Middleman Data Files with an API similar to ActiveRecord.
+  official: false
+  links:
+    github: https://github.com/pixelate/data_files
+  tags:
+    - Tooling
+-
+  name: middleman-rss_items
+  description: Fetch RSS and add helpers to display articles in RSS.
+  official: false
+  links:
+    github: https://github.com/seibii/middleman-rss_items
+  tags:
+    - Generator
